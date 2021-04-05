@@ -27,7 +27,7 @@ const swiper = new Swiper('.swiper-container', {
 
 });
 
-$(".regular-slider").slick({
+$('.regular-slider').slick({
         dots: false,
         infinite: false,
         slidesToShow: 2,
