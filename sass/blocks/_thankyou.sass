@@ -1,0 +1,45 @@
+.thankyou
+  &-container
+    display: flex
+    align-items: center
+    flex-direction: column
+    margin-top: 100px
+  &__name
+    font-family: Roboto
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    line-height: 30px
+  &__discription
+    font-family: Open Sans
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 32px
+    margin-bottom: 35px
+  &__form
+    margin-bottom: 15px
+    &-button
+      font-family: Open Sans
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 25px
+      margin-bottom: 56px
+      color: #FFFFFF
+      background: #183B56
+      border-radius: 8px
+      padding: 16px 40px 15px 40px
+      text-decoration: none
+      cursor: pointer
+      border: none
+      border-radius: 4px
+      transition: 0.3s
+@media (max-width: 320px)
+  .thankyou
+    &-container
+      width: 100%
+      margin: auto
+    &__name
+      font-size: 20px
+      line-height: 30px

@@ -1,0 +1,66 @@
+.communication
+  background-color: #00B8D9
+  position: relative
+  overflow: hidden
+  &-container
+    width: 1140px
+    margin: auto
+    text-align: center
+    padding-top: 60px
+    padding-bottom: 80px
+  &-title
+    text-align: center
+    font-family: Roboto
+    font-style: normal
+    font-weight: bold
+    font-size: 48px
+    line-height: 60px
+    letter-spacing: 0.2px
+    color: #FFFFFF
+    margin-top: 0
+    margin-bottom: 16px
+  &-text
+    text-align: center
+    font-family: Open Sans
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 32px
+    color: #FFFFFF
+    margin-bottom: 50px
+  &-button
+    font-family: Open Sans
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 22px
+    text-align: center
+    color: #0D2436
+    background-color: #fff
+    padding: 13px 52px
+    border-radius: 12px
+    display: inline-block
+    margin-bottom: 0
+    z-index: 20
+    position: relative
+.oval-big
+  position: absolute
+  top: 0
+  right: 0
+  z-index: 1
+  &::before
+    content: ""
+    background: linear-gradient(270deg, #FFFFFF 28.21%, rgba(255, 255, 255, 0.0001) 71.3%)
+    mix-blend-mode: normal
+    opacity: 0.2
+.oval-small
+  display: none
+  position: absolute
+  top: 59.5%
+  right: 0
+  z-index: 1
+  &::before
+    content: ""
+    background: linear-gradient(270deg, #FFFFFF 28.21%, rgba(255, 255, 255, 0.0001) 99.73%)
+    mix-blend-mode: normal
+    opacity: 0.2
