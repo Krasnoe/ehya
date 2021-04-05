@@ -342,7 +342,7 @@ template {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #fff;
 }
 
@@ -377,7 +377,7 @@ textarea {
   border: none;
   color: #000000;
   outline: none;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 
 .message {
@@ -423,7 +423,7 @@ textarea {
   position: absolute;
   top: 20px;
   display: none;
-  background-color: #fafdff;
+  background-color: #FAFDFF;
   z-index: 99;
   left: -5.5px;
 }
@@ -441,13 +441,13 @@ textarea {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  color: #183b56;
+  color: #183B56;
   flex-basis: 50%;
 }
 
 .navbar-menu-blue {
-  color: #1565d8;
-  border: 2px solid #1565d8;
+  color: #1565D8;
+  border: 2px solid #1565D8;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -524,11 +524,11 @@ textarea {
 .agency {
   position: relative;
   margin-top: 155px;
-  background-color: #fafdff;
+  background-color: #FAFDFF;
 }
 
 .agency::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 7px;
   right: 0px;
@@ -588,7 +588,7 @@ textarea {
   font-size: 48px;
   line-height: 60px;
   letter-spacing: 0.2px;
-  color: #183b56;
+  color: #183B56;
 }
 
 .agency__title-little {
@@ -613,8 +613,8 @@ textarea {
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 56px;
-  color: #ffffff;
-  background: #183b56;
+  color: #FFFFFF;
+  background: #183B56;
   border-radius: 8px;
   padding: 16px 40px 15px 40px;
 }
@@ -623,6 +623,7 @@ textarea {
   width: 54px;
   height: 56px;
   margin-bottom: 105px;
+  border-radius: 50%;
 }
 
 .partners {
@@ -643,7 +644,7 @@ textarea {
   line-height: 19px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #00b8d9;
+  color: #00B8D9;
   margin-bottom: 28px;
 }
 
@@ -660,7 +661,7 @@ textarea {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.2px;
-  color: #183b56;
+  color: #183B56;
   margin: 0 145px 0 0;
   min-width: 433px;
 }
@@ -671,7 +672,7 @@ textarea {
   font-weight: normal;
   font-size: 18px;
   line-height: 32px;
-  color: #5a7184;
+  color: #5A7184;
   margin: 0;
 }
 
@@ -731,7 +732,7 @@ textarea {
 }
 
 .we-do {
-  background-color: #f9fbfe;
+  background-color: #F9FBFE;
 }
 
 .we-do-container {
@@ -763,7 +764,7 @@ textarea {
   font-weight: normal;
   font-size: 18px;
   line-height: 32px;
-  color: #5a7184;
+  color: #5A7184;
   margin: 0;
 }
 
@@ -792,7 +793,7 @@ textarea {
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  color: #5a7184;
+  color: #5A7184;
   margin: 0;
 }
 
@@ -809,8 +810,8 @@ textarea {
 .image-wrapper {
   display: flex;
   width: 361px;
-  height: 165px;
-  background: #ffffff;
+  min-height: 165px;
+  background: #FFFFFF;
   border: 1px solid rgba(255, 255, 255, 0.0001);
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.05);
   border-radius: 16px;
@@ -836,7 +837,7 @@ textarea {
   line-height: 19px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #00b8d9;
+  color: #00B8D9;
   margin-bottom: 20px;
 }
 
@@ -851,7 +852,7 @@ textarea {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.2px;
-  color: #183b56;
+  color: #183B56;
   margin: 0 0 48px 0;
 }
 
@@ -915,7 +916,7 @@ textarea {
 .slide-text {
   height: 124px;
   border-radius: 0px 0px 8px 8px;
-  border: 1px solid #dde6f4;
+  border: 1px solid #DDE6F4;
   margin-top: -4px;
   padding: 23.5px 10px 24px 23.3px;
 }
@@ -936,7 +937,7 @@ textarea {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #1565d8;
+  color: #1565D8;
   margin-bottom: 16px;
 }
 
@@ -951,7 +952,7 @@ textarea {
   font-size: 30px;
   line-height: 40px;
   letter-spacing: 0.2px;
-  color: #183b56;
+  color: #183B56;
 }
 
 .underslide-title-2 {
@@ -978,7 +979,7 @@ textarea {
   line-height: 19px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #00b8d9;
+  color: #00B8D9;
 }
 
 .about-text {
@@ -988,7 +989,7 @@ textarea {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.2px;
-  color: #183b56;
+  color: #183B56;
   margin-bottom: 47px;
 }
 
@@ -999,6 +1000,7 @@ textarea {
 .regular-box {
   width: 100%;
   height: 100%;
+  overflow: auto;
 }
 
 .regular-wrapper {
@@ -1035,7 +1037,7 @@ textarea {
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.2px;
-  color: #183b56;
+  color: #183B56;
 }
 
 .info-post {
@@ -1044,7 +1046,7 @@ textarea {
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
-  color: #5a7184;
+  color: #5A7184;
 }
 
 .info-text {
@@ -1053,7 +1055,7 @@ textarea {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #5a7184;
+  color: #5A7184;
   margin-left: -1px;
 }
 
@@ -1064,8 +1066,8 @@ textarea {
 
 .slick-next {
   background-image: url(../img/arrow-right.svg);
-  color: #183b56;
-  background-color: #ffffff;
+  color: #183B56;
+  background-color: #FFFFFF;
   border-radius: 2000px;
   background-repeat: no-repeat;
   border: none;
@@ -1076,8 +1078,8 @@ textarea {
 
 .slick-prev {
   background-image: url(../img/arrow-right.svg);
-  color: #183b56;
-  background-color: #ffffff;
+  color: #183B56;
+  background-color: #FFFFFF;
   border-radius: 2000px;
   transform: scaleX(-1);
   background-repeat: no-repeat;
@@ -1092,11 +1094,12 @@ textarea {
   max-height: 267px;
   margin-right: 30px;
   padding: 40px 20px 40px 40px;
-  background: #ffffff;
-  border: 1px solid #e5eaf4;
+  background: #FFFFFF;
+  border: 1px solid #E5EAF4;
   box-sizing: border-box;
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .slick-active {
@@ -1158,7 +1161,7 @@ textarea {
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #00b8d9;
+  color: #00B8D9;
   margin-bottom: 20.8px;
 }
 
@@ -1170,7 +1173,7 @@ textarea {
   line-height: 48px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #183b56;
+  color: #183B56;
 }
 
 .wrapper {
@@ -1198,7 +1201,7 @@ textarea {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.2px;
-  color: #183b56;
+  color: #183B56;
 }
 
 .wrapper-text {
@@ -1208,7 +1211,7 @@ textarea {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 23.5px;
-  color: #5a7184;
+  color: #5A7184;
 }
 
 .wrapper-text--2 {
@@ -1233,7 +1236,7 @@ textarea {
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
-  color: #1565d8;
+  color: #1565D8;
   margin-right: 4.5px;
 }
 
@@ -1362,7 +1365,7 @@ textarea {
   overflow: hidden;
   color: #fff;
   outline: none;
-  background: #183b56;
+  background: #183B56;
   font-size: 18px;
 }
 
@@ -1376,7 +1379,7 @@ textarea {
 
 label.form-1 {
   font-family: Open Sans;
-  color: #ec1f46;
+  color: #EC1F46;
   font-size: 12px;
   position: absolute;
   bottom: 16px;
@@ -1385,7 +1388,7 @@ label.form-1 {
 }
 
 .communication {
-  background-color: #00b8d9;
+  background-color: #00B8D9;
   position: relative;
   overflow: hidden;
 }
@@ -1406,7 +1409,7 @@ label.form-1 {
   font-size: 48px;
   line-height: 60px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #FFFFFF;
   margin-top: 0;
   margin-bottom: 16px;
 }
@@ -1418,7 +1421,7 @@ label.form-1 {
   font-weight: normal;
   font-size: 18px;
   line-height: 32px;
-  color: #ffffff;
+  color: #FFFFFF;
   margin-bottom: 50px;
 }
 
@@ -1429,7 +1432,7 @@ label.form-1 {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
-  color: #0d2436;
+  color: #0D2436;
   background-color: #fff;
   padding: 13px 52px;
   border-radius: 12px;
@@ -1448,11 +1451,7 @@ label.form-1 {
 
 .oval-big::before {
   content: "";
-  background: linear-gradient(
-    270deg,
-    #ffffff 28.21%,
-    rgba(255, 255, 255, 0.0001) 71.3%
-  );
+  background: linear-gradient(270deg, #FFFFFF 28.21%, rgba(255, 255, 255, 0.0001) 71.3%);
   mix-blend-mode: normal;
   opacity: 0.2;
 }
@@ -1467,11 +1466,7 @@ label.form-1 {
 
 .oval-small::before {
   content: "";
-  background: linear-gradient(
-    270deg,
-    #ffffff 28.21%,
-    rgba(255, 255, 255, 0.0001) 99.73%
-  );
+  background: linear-gradient(270deg, #FFFFFF 28.21%, rgba(255, 255, 255, 0.0001) 99.73%);
   mix-blend-mode: normal;
   opacity: 0.2;
 }
@@ -1511,8 +1506,8 @@ label.form-1 {
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 56px;
-  color: #ffffff;
-  background: #183b56;
+  color: #FFFFFF;
+  background: #183B56;
   border-radius: 8px;
   padding: 16px 40px 15px 40px;
   text-decoration: none;
@@ -1534,7 +1529,7 @@ label.form-1 {
 }
 
 .footer {
-  background-color: #0d2436;
+  background-color: #0D2436;
 }
 
 .footer-container {
@@ -1560,7 +1555,7 @@ label.form-1 {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  color: #5a7184;
+  color: #5A7184;
 }
 
 .top-wrapper {
@@ -1594,7 +1589,7 @@ label.form-1 {
   font-weight: normal;
   font-size: 15px;
   line-height: 28px;
-  color: #5a7184;
+  color: #5A7184;
   text-align: left;
   margin-bottom: 32px;
 }
@@ -1606,10 +1601,29 @@ label.form-1 {
 .left-link--1 {
   margin-right: 19px;
   margin-left: -2.4px;
+  background-image: url("../img/icons/google.svg");
+  background-repeat: no-repeat;
 }
 
 .left-link--2 {
-  margin-right: 24.8px;
+  margin-right: 19.1px;
+  background-image: url("../img/icons/twitter.svg");
+  background-repeat: no-repeat;
+}
+
+.left-link--3 {
+  background-image: url("../img/icons/instagram.svg");
+  background-repeat: no-repeat;
+}
+
+.left-link--4 {
+  background-image: url("../img/icons/linkedin.svg");
+  background-repeat: no-repeat;
+}
+
+.left-link--5 {
+  background-image: url("../img/icons/youtube.svg");
+  background-repeat: no-repeat;
 }
 
 .left-logo {
@@ -1649,7 +1663,7 @@ label.form-1 {
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
-  color: #5a7184;
+  color: #5A7184;
 }
 
 .column-title--2 {
@@ -1661,7 +1675,7 @@ label.form-1 {
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  color: #959ead;
+  color: #959EAD;
   text-align: left;
   margin-bottom: 24px;
 }
@@ -1812,22 +1826,22 @@ label.form-1 {
 
 @media (min-width: 992px) {
   .thankyou__form-button:hover {
-    background-color: #1565d8;
-    color: #183b56;
+    background-color: #1565D8;
+    color: #183B56;
     transition: 0.4s;
   }
   .agency__button:hover {
-    background-color: #1565d8;
-    color: #183b56;
+    background-color: #1565D8;
+    color: #183B56;
     transition: 0.4s;
   }
   .communication-button:hover {
     color: #fff;
-    background-color: #0d2436;
+    background-color: #0D2436;
     transition: 0.4s;
   }
   .navbar-menu-blue:hover {
-    background-color: #1565d8;
+    background-color: #1565D8;
     color: #fff;
     transition: 0.4s;
   }
@@ -1837,12 +1851,35 @@ label.form-1 {
   }
   .modal__button:hover {
     background-color: #fff;
-    color: #183b56;
+    color: #183B56;
     transition: 0.4s;
-    border: 1px solid #183b56;
   }
   .wrapper-links:hover {
     color: #fc3f06;
+    transition: 0.4s;
+  }
+  .left-link--1:hover {
+    background-image: url("../img/icons/google-1.svg");
+    transition: 0.4s;
+  }
+  .left-link--2:hover {
+    background-image: url("../img/icons/twitter-1.svg");
+    transition: 0.4s;
+  }
+  .left-link--3:hover {
+    background-image: url("../img/icons/instagram-1.svg");
+    transition: 0.4s;
+  }
+  .left-link--4:hover {
+    background-image: url("../img/icons/linkedin-1.svg");
+    transition: 0.4s;
+  }
+  .left-link--5:hover {
+    background-image: url("../img/icons/youtube-1.svg");
+    transition: 0.4s;
+  }
+  .agency__arrow:hover {
+    background-color: #00B8D9;
     transition: 0.4s;
   }
 }
@@ -1869,7 +1906,7 @@ label.form-1 {
     margin-bottom: 20px;
   }
   .agency__button:hover {
-    color: #ffffff;
+    color: #FFFFFF;
   }
   .agency__arrow {
     margin-bottom: 50px;
@@ -1912,15 +1949,15 @@ label.form-1 {
     font-size: 16px;
   }
   .communication-button:hover {
-    color: #0d2436;
+    color: #0D2436;
     background-color: #fff;
   }
   .thankyou__form:hover {
-    color: #ffffff;
+    color: #FFFFFF;
   }
   .navbar-menu-blue:hover {
     background-color: #fff;
-    color: #1565d8;
+    color: #1565D8;
   }
   .modal {
     max-width: 478px;
@@ -1963,7 +2000,7 @@ label.form-1 {
     bottom: 0;
     top: 73px;
     width: 100%;
-    background-color: #00b8d9;
+    background-color: #00B8D9;
   }
   .navbar-top__nav--visible {
     display: flex;
@@ -1979,6 +2016,7 @@ label.form-1 {
     left: 0;
     right: 0;
     z-index: 99;
+    height: 68.1px;
   }
   .navbar-menu {
     display: flex;
@@ -2028,7 +2066,7 @@ label.form-1 {
   .menu-buttons__line {
     width: 22px;
     height: 2px;
-    background-color: #3a4c66;
+    background-color: #3A4C66;
   }
   .agency {
     margin-top: 0;

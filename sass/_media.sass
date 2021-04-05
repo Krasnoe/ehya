@@ -147,11 +147,37 @@
         background-color: #fff
         color: #183B56
         transition: 0.4s
-        border: 1px solid #183B56
   .wrapper
     &-links
       &:hover
         color: #fc3f06
+        transition: 0.4s
+  .left
+    &-link
+      &--1
+        &:hover
+          background-image: url("../img/icons/google-1.svg")
+          transition: 0.4s
+      &--2
+        &:hover
+          background-image: url("../img/icons/twitter-1.svg")
+          transition: 0.4s
+      &--3
+        &:hover
+          background-image: url("../img/icons/instagram-1.svg")
+          transition: 0.4s
+      &--4
+        &:hover
+          background-image: url("../img/icons/linkedin-1.svg")
+          transition: 0.4s
+      &--5
+        &:hover
+          background-image: url("../img/icons/youtube-1.svg")
+          transition: 0.4s
+  .agency
+    &__arrow
+      &:hover
+        background-color: #00B8D9
         transition: 0.4s
 @media (max-width: 992px)
   .container
@@ -235,6 +261,7 @@
       min-height: 300px
     &-list
       min-height: 300px
+
 // @media (min-width: 769px)
   // .navbar
   //   &-menu
@@ -273,6 +300,7 @@
         left: 0
         right: 0
         z-index: 99
+        height: 68.1px
     &-menu
       display: flex
       flex-direction: column
