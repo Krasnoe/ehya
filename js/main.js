@@ -5,7 +5,7 @@ menuButton.addEventListener('click', function () {
   console.log('кнопка');
   document.querySelector('.navbar-top__nav').classList.toggle('navbar-top__nav--visible');
   
-})
+});
 
 const swiper = new Swiper('.swiper-container', {
   // Optional parameters
@@ -45,14 +45,12 @@ $('.regular-slider').slick({
         {
           breakpoint: 993,
           settings: {
-            slidesToShow: 1,
             slidesToScroll: 0.75,
           }
         },
         {
           breakpoint: 850,
           settings: {
-            slidesToShow: 1,
             slidesToScroll: 1,
             centerMode: true,
           }
@@ -60,12 +58,11 @@ $('.regular-slider').slick({
         {
           breakpoint: 410,
           settings: {
-            slidesToShow: 1,
             slidesToScroll: 1,
           }
         },
-      ]
-      });
+        ]
+});
 
   const modalOverlay = $('.modal__overlay');
   const modalDialog = $('.modal__dialog');
@@ -89,7 +86,7 @@ $('.regular-slider').slick({
   document.addEventListener('keydown', (event) => {
     if (event.code === 'Escape') {
       closeModal(event);
-    };
+    }
   });
 
   // Обработка форм
@@ -114,4 +111,4 @@ $('.regular-slider').slick({
   
 $(".phone").mask("+7 (000) 000-0000");
   
-})
+});
