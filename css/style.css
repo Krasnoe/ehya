@@ -1099,9 +1099,8 @@ textarea {
 
 .slick-slide {
   max-width: 555px;
-  max-height: 267px;
   margin-right: 30px;
-  padding: 40px 20px 40px 40px;
+  padding: 40px 20px 19px 40px;
   background: #FFFFFF;
   border: 1px solid #E5EAF4;
   box-sizing: border-box;
@@ -1135,12 +1134,13 @@ textarea {
 }
 
 .slick-list {
-  height: 267px;
+  min-height: 267px;
+  height: 100%;
 }
 
 .slick-track {
   height: 100%;
-  min-width: 2000px;
+  min-width: 2500px;
 }
 
 .slick-disabled {
@@ -2029,7 +2029,7 @@ label.form-1 {
     left: 0;
     right: 0;
     z-index: 99;
-    height: 68.1px;
+    height: 77.3px;
   }
   .navbar-menu {
     display: flex;
@@ -2145,6 +2145,9 @@ label.form-1 {
   }
   .slick-list {
     min-height: 350px;
+  }
+  .slick-arrow {
+    top: 78.3%;
   }
   .oval-big {
     display: none;
@@ -2617,12 +2620,12 @@ label.form-1 {
 @media (max-width: 390px) {
   .slick-slide {
     text-align: center;
-    padding: 23.8px 10px;
-    margin-right: 0;
+    padding: 23.8px 10px 13.4px 10px;
+    margin-right: 1px;
     margin-left: 0;
+    min-height: 354px;
   }
   .regular-box {
-    min-height: 350px;
     margin-right: 0;
   }
   .regular-wrapper {
@@ -2986,9 +2989,6 @@ label.form-1 {
   }
   .slick-next {
     left: 41.7%;
-  }
-  .slick-slide {
-    min-height: 79%;
   }
   .friends-text {
     text-transform: capitalize;
