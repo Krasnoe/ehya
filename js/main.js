@@ -38,26 +38,14 @@ $('.regular-slider').slick({
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 0.5,
-          }
-        },
-        {
-          breakpoint: 993,
-          settings: {
-            slidesToScroll: 0.75,
-          }
-        },
-        {
-          breakpoint: 850,
-          settings: {
+            slidesToShow: 2,
             slidesToScroll: 1,
-            centerMode: true,
           }
         },
         {
-          breakpoint: 410,
+          breakpoint: 670,
           settings: {
+            slidesToShow: 1,
             slidesToScroll: 1,
           }
         },

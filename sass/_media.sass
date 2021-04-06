@@ -497,6 +497,12 @@
       font-size: 32px
     &-text
       font-size: 14px
+  .slick
+    &-slide
+      width: inherit
+      max-width: 500px
+      min-width: 84vw
+      margin-right: 9.7px
 @media (max-width: 630px)
   .underslide
     &-text
@@ -510,6 +516,11 @@
       font-size: 15px
     &-links
       font-size: 16px
+@media (max-width: 615px)
+  .slick
+    &-slide
+      min-width: 80vw
+      margin-right: 30.2px
 @media (max-width: 600px)
   .right
     &-box
@@ -554,11 +565,6 @@
         overflow: visible
     &__item
       padding: 4px
-@media (max-width: 508px)
-  .slick
-    &-slide
-      width: 357.1px
-      margin-right: 5px
 @media (max-height: 500px)
   .modal__dialog
     overflow: auto
@@ -752,14 +758,8 @@
 @media (max-width: 410px)
   .slick
     &-slide
-      min-width: 290px
-      max-width: 100%
-      margin-right: 10.6px
-      padding: 24px 10px 10px 10px
-      height: 100%
-    &-list
-      max-height: 354px
-      min-height: 354px
+      padding-bottom: 10px
+      height: auto
   .avatar
     margin-bottom: 16px
   .info
@@ -768,10 +768,24 @@
     &-top
       margin-bottom: 6px
     &-text
-      width: 270px
+      width: 100%
       line-height: 22px
   .wrapper
     max-width: 130px
+@media (max-width: 390px)
+  .slick
+    &-slide
+      text-align: center
+      padding: 23.8px 10px
+      margin-right: 0
+      margin-left: 0
+  .regular
+    &-box
+      min-height: 350px
+      margin-right: 0
+    &-wrapper
+      align-items: center
+      height: 100%
 @media (max-width: 370px)
   .modal
     &__button
@@ -785,13 +799,15 @@
     &__title
       &-little
         line-height: 42px
-  .slick
-    &-slide
-      margin-left: 0
-      margin-right: 0
   .feedback
     &-container
       width: 290px
+  .slick
+    &-slide
+      max-width: 290px
+      min-width: 290px
+      margin-right: 0
+      margin-left: 0
 @media (max-width: 340px)
   .agency
     &__button
@@ -1048,7 +1064,7 @@
   .feedback
     &-container
       width: 290px
-      padding-bottom: 144.6px
+      padding-bottom: 48.7px
   .about
     &-title
       margin-bottom: 24px
@@ -1060,12 +1076,14 @@
       margin-left: -9px
   .slick
     &-arrow
-      top: 107.1%
+      top: 84.3%
       width: 48px
       height: 48px
       background-size: 25%
     &-next
       left: 41.7%
+    &-slide
+      min-height: 79%
   .friends
     &-text
       text-transform: capitalize
